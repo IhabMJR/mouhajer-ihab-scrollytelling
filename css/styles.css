@@ -1,6 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
-root {
+:root {
+  --noir: #000000;
+  --blanc: #ffffff;
   --outfit: "Outfit", sans-serif;
   --urbanist: "Urbanist", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/img_arriere_plan/aplan_1.jpg);
+}
+
+.titre1 {
+  margin: 25px;
+  text-align: center;
+  font-size: 10vw;
+  color: var(--blanc);
+  font-family: var(--outfit);
+  text-shadow: 2px 2px 0 var(--noir), 2px -2px 0 var(--noir),
+    -2px 2px 0 var(--noir), -2px -2px 0 var(--noir), 2px 0px 0 var(--noir),
+    0px 2px 0 var(--noir), -2px 0px 0 var(--noir), 0px -2px 0 var(--noir),
+    2px 2px 2px var(--noir);
+}
+
+.desc1 {
+    margin: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--blanc);
+    font-family: var(--urbanist);
+    text-shadow: 2px 2px 0 var(--noir), 2px -2px 0 var(--noir),
+      -2px 2px 0 var(--noir), -2px -2px 0 var(--noir), 2px 0px 0 var(--noir),
+      0px 2px 0 var(--noir), -2px 0px 0 var(--noir), 0px -2px 0 var(--noir),
+      2px 2px 2px var(--noir);
 }
