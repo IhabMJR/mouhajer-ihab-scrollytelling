@@ -16,26 +16,29 @@ body {
 header {
   width: 100vw;
   height: 100vh;
+  padding-top: 1px;
   background-image: url(../img/img_arriere_plan/aplan_1.jpg);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .titre1 {
-  margin: 25px;
+  margin-bottom: 10px;
   text-align: center;
-  font-size: 10vw;
+  font-size: 8vw;
   color: var(--blanc);
   font-family: var(--outfit);
 }
 
 .desc1 {
-    margin: 25px;
-    text-align: center;
-    font-size: 15px;
-    color: var(--blanc);
-    font-family: var(--urbanist);
+  width: 50vw;
+  margin: auto;
+  margin-top: 2vw;
+  text-align: center;
+  font-size: 12px;
+  color: var(--blanc);
+  font-family: var(--urbanist);
 }
 
 .cta {
@@ -43,4 +46,53 @@ header {
   position: absolute;
   bottom: 0;
   left: 45vw;
+}
+
+#ch1 {
+  width: 100vw;
+  height: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#ch2 {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../img/img_);
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#ch3 {
+  width: 100vw;
+  height: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#ch4 {
+  width: 100vw;
+  height: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#ch5 {
+  width: 100vw;
+  height: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#ch6 {
+  width: 100vw;
+  height: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
 }
