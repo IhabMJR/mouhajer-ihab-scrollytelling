@@ -54,8 +54,32 @@ header {
 }
 
 .spriteTest {
-  width: 100%;
+  width: 20vw;
+  height: 20vw;
+  aspect-ratio: 1/1;
+  background-size: 4700% 100%;
+  position: relative;
   background-image: url("../img/img_elements_visuels/spirale.png");
+  animation-name: spirale;
+  animation-play-state: paused;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+}
+
+@keyframes spirale {
+  from { background-position: 0 0; }
+  to { background-position: -4700% 0; }
+}
+
+.is-scrolling .spriteTest {
+  animation-play-state: running;
+}
+
+.containerTest {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
 
 /*---------------------------------------------------------- 

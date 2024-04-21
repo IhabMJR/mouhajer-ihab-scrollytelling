@@ -1,3 +1,14 @@
+let body = document.body;
+let minuteur;
+
+window.addEventListener('scroll', function isScrolling() {
+  clearTimeout(minuteur);
+  body.classList.add("is-scrolling");
+  minuteur = setTimeout(() => {
+    body.classList.remove("is-scrolling");
+ }, 100);
+});
+
 document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger);
   gsap.fromTo(
