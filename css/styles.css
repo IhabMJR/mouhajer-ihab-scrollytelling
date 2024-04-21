@@ -53,7 +53,7 @@ header {
   left: 45vw;
 }
 
-.spriteTest {
+.spirale {
   width: 20vw;
   height: 20vw;
   aspect-ratio: 1/1;
@@ -72,15 +72,10 @@ header {
   to { background-position: -4700% 0; }
 }
 
-.is-scrolling .spriteTest {
+.is-scrolling .spirale {
   animation-play-state: running;
 }
 
-.containerTest {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-}
 
 /*---------------------------------------------------------- 
 # Chapitre 1
@@ -92,6 +87,10 @@ header {
   border-style: solid;
   border-width: 3px;
   border-color: red;
+}
+
+.perso {
+  width: 40vw;
 }
 
 /*---------------------------------------------------------- 
