@@ -47,27 +47,13 @@ header {
 }
 
 .cta {
-  width: 10vw;
   position: absolute;
+  transform: translate(45vw);
+  width: 10vw;
   bottom: 0;
-  left: 45vw;
 }
 
-.spirale {
-  width: 20vw;
-  height: 20vw;
-  aspect-ratio: 1/1;
-  background-size: 4700% 100%;
-  position: relative;
-  background-image: url("../img/img_elements_visuels/spirale.png");
-  animation-name: spirale;
-  animation-play-state: paused;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps(48);
-}
-
-@keyframes spirale {
+@keyframes spritesheet1 {
   from { background-position: 0 0; }
   to { background-position: -4700% 0; }
 }
@@ -76,21 +62,53 @@ header {
   animation-play-state: running;
 }
 
+.is-scrolling .oeil1 {
+  animation-play-state: running;
+}
+
+.is-scrolling .oeil2 {
+  animation-play-state: running;
+}
+
+.is-scrolling .oeil3 {
+  animation-play-state: running;
+}
 
 /*---------------------------------------------------------- 
 # Chapitre 1
 ----------------------------------------------------------*/ 
 
 #ch1 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
 }
 
 .perso {
-  width: 40vw;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+}
+
+.spirale {
+  position: absolute;
+  width: 18vw;
+  height: 18vw;
+  top: 12vw;
+  left: 40.5vw;
+  aspect-ratio: 1/1;
+  background-size: 4700% 100%;
+  position: relative;
+  background-image: url("../img/img_elements_visuels/spirale.png");
+  animation-name: spritesheet1;
+  animation-play-state: paused;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
 }
 
 /*---------------------------------------------------------- 
@@ -98,12 +116,34 @@ header {
 ----------------------------------------------------------*/ 
 
 #ch2 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
-  background-image: url(../img/img_);
+  height: 100vh;
+  background-image: url(../img/img_arriere_plan/spirale_fond.jpg);
+  background-size: cover;
+  background-position-y: -5vw;
+  background-repeat: no-repeat;
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
+}
+
+.montagne {
+  position: absolute;
+  bottom: 0;
+}
+
+.chaise {
+  position: absolute;
+  top: 15vw;
+  left: 47.5vw;
+}
+
+.perso2 {
+  position: absolute;
+  top: 14vw;
+  left: 44vw;
 }
 
 /*---------------------------------------------------------- 
@@ -111,11 +151,69 @@ header {
 ----------------------------------------------------------*/ 
 
 #ch3 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  background-color: var(--noir);
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
+}
+
+.oeil1 {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  aspect-ratio: 1/1;
+  background-size: 4700% 100%;
+  position: relative;
+  background-image: url("../img/img_elements_visuels/oeil.png");
+  animation-name: spritesheet1;
+  animation-play-state: paused;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  left: 10vw;
+  rotate: 300deg;
+}
+
+.oeil2 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  aspect-ratio: 1/1;
+  background-size: 4700% 100%;
+  position: relative;
+  background-image: url("../img/img_elements_visuels/oeil.png");
+  animation-name: spritesheet1;
+  animation-play-state: paused;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  animation-delay: 250ms;
+  top: 7vw;
+  left: 10vw;
+  rotate: 260deg;
+}
+
+.oeil3 {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  aspect-ratio: 1/1;
+  background-size: 4700% 100%;
+  position: relative;
+  background-image: url("../img/img_elements_visuels/oeil.png");
+  animation-name: spritesheet1;
+  animation-play-state: paused;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  animation-delay: 850ms;
+  bottom: 30vw;
+  left: 70vw;
+  rotate: 60deg;
 }
 
 /*---------------------------------------------------------- 
@@ -123,11 +221,14 @@ header {
 ----------------------------------------------------------*/ 
 
 #ch4 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  background-color: var(--noir);
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
 }
 
 /*---------------------------------------------------------- 
@@ -135,11 +236,14 @@ header {
 ----------------------------------------------------------*/ 
 
 #ch5 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  background-color: var(--noir);
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
 }
 
 /*---------------------------------------------------------- 
@@ -147,9 +251,11 @@ header {
 ----------------------------------------------------------*/ 
 
 #ch6 {
+  position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   border-style: solid;
   border-width: 3px;
   border-color: red;
+  overflow-y: hidden;
 }
