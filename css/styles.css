@@ -253,11 +253,84 @@ ul.technique-gsap li{
   overflow: hidden;
 }
 
-#visage {
+.visage {
   position: absolute;
-  top: -10vw;
   width: 120vw;
-  left: -59vw;
+  height: 80vw;
+  right: 1vw;
+  top: -15vw;
+}
+
+.visage:nth-child(2) {
+    position: absolute;
+    width: 120vw;
+    height: 80vw;
+    right: 11vw;
+    top: -15vw;
+}
+
+.visage:nth-child(3) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 21vw;
+  top: -15vw;
+}
+
+.visage:nth-child(4) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 31vw;
+  top: -15vw;
+}
+
+.visage:nth-child(5) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 41vw;
+  top: -15vw;
+}
+
+.visage:nth-child(6) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 51vw;
+  top: -15vw;
+}
+
+.visage:nth-child(7) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 61vw;
+  top: -15vw;
+}
+
+.visage:nth-child(8) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 71vw;
+  top: -15vw;
+}
+
+.visage:nth-child(9) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 81vw;
+  top: -15vw;
+}
+
+.visage:nth-child(10) {
+  position: absolute;
+  width: 120vw;
+  height: 80vw;
+  right: 91vw;
+  top: -15vw;
 }
 
 /*---------------------------------------------------------- 
@@ -272,8 +345,62 @@ ul.technique-gsap li{
   border-style: solid;
   border-width: 3px;
   border-color: red;
-  overflow-y: hidden;
+  overflow: hidden;
 }
+
+.calque_1 {
+  position: absolute;
+  top: -25vw;
+  width: 100vw;
+  height: 100vw;
+  left: 8vw;
+}
+
+.calque_1:nth-child(2) {
+    position: absolute;
+    left: 18vw;
+}
+
+.calque_1:nth-child(3) {
+  position: absolute;
+  left: 28vw;
+}
+
+.calque_1:nth-child(4) {
+  position: absolute;
+  left: 38vw;
+}
+
+.calque_1:nth-child(5) {
+  position: absolute;
+  left: 48vw;
+}
+
+.calque_1:nth-child(6) {
+  position: absolute;
+  left: 58vw;
+}
+
+.calque_1:nth-child(7) {
+  position: absolute;
+  left: 68vw;
+}
+
+.calque_1:nth-child(8) {
+  position: absolute;
+  left: 78vw;
+}
+
+.calque_1:nth-child(9) {
+  position: absolute;
+  left: 88vw;
+}
+
+.calque_1:nth-child(10) {
+  position: absolute;
+  left: 98vw;
+}
+
 
 /*---------------------------------------------------------- 
 # Chapitre 6
