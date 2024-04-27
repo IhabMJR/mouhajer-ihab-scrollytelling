@@ -32,6 +32,10 @@ header {
   background-position: center center;
 }
 
+footer {
+  padding: 1vw;
+}
+
 .titre1 {
   margin-bottom: 10px;
   text-align: center;
