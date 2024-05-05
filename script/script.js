@@ -126,9 +126,12 @@ gsap
     }
   })
   .to(".text7", { opacity: 1, duration: 200},)
-  .to(".visage", { opacity: 1, duration: 100, stagger: 10})
-  .to(".text7", { opacity: 0, duration: 200}, '<'
-);
+  .to(".visage", { opacity: 1, duration: 100, stagger: 10},)
+  .fromTo( "#visageDraw", { drawSVG: "0% 0%" }, {
+    drawSVG: "0% 100%",
+    duration: 500,
+  })
+  .to(".text7", { opacity: 0, duration: 200}, '<');
 
 /* ---- Animation chapitre 5 ----- */
 
