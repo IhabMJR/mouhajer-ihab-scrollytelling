@@ -1,3 +1,5 @@
+gsap.registerPlugin(DrawSVGPlugin);
+
 let body = document.body;
 let minuteur;
 let spirale = document.querySelector(".spirale");
