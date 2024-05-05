@@ -350,83 +350,47 @@ ul.technique-gsap li{
 .visage {
   position: absolute;
   width: 120vw;
-  height: 80vw;
-  right: -20vw;
-  top: -15vw;
+  height: 55vw;
+  right: -70vw;
+  top: -1vw;
   opacity: 0;
   border: green solid 1px;
 }
 
 .visage:nth-child(2) {
-    position: absolute;
-    width: 120vw;
-    height: 80vw;
-    right: 11vw;
-    top: -15vw;
+    right: -45vw;
 }
 
 .visage:nth-child(3) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 21vw;
-  top: -15vw;
+  right: -35vw;
 }
 
 .visage:nth-child(4) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 31vw;
-  top: -15vw;
+  right: -25vw;
 }
 
 .visage:nth-child(5) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 41vw;
-  top: -15vw;
+  right: -15vw;
 }
 
 .visage:nth-child(6) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 51vw;
-  top: -15vw;
+  right: -5vw;
 }
 
 .visage:nth-child(7) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 61vw;
-  top: -15vw;
+  right: 5vw;
 }
 
 .visage:nth-child(8) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 71vw;
-  top: -15vw;
+  right: 15vw;
 }
 
 .visage:nth-child(9) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 81vw;
-  top: -15vw;
+  right: 25vw;
 }
 
 .visage:nth-child(10) {
-  position: absolute;
-  width: 120vw;
-  height: 80vw;
-  right: 91vw;
-  top: -15vw;
+  right: 35vw;
 }
 
 .text7 {
