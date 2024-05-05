@@ -1,6 +1,7 @@
 let body = document.body;
 let minuteur;
 let spirale = document.querySelector(".spirale");
+let hauteur = document.body.scrollHeight;
 
 window.addEventListener('scroll', function isScrolling() {
   clearTimeout(minuteur);
@@ -26,6 +27,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   );
 });
 
+/* ---- Animation chapitre 1 ----- */
+
 gsap
   .timeline({
     scrollTrigger: {
@@ -43,6 +46,8 @@ gsap
   .to(".text1", { opacity: 0, duration: 10})
   .to(".text2", { opacity: 0, duration: 10}, '<'
 );
+
+/* ---- Animation chapitre 2 ----- */
 
 gsap
   .timeline({
@@ -62,6 +67,38 @@ gsap
   .to(".text4", { opacity: 1, duration: 50}, '<'
 );
 
+gsap.to(".nuage1", {
+  scrollTrigger: {
+    markers: true,
+    scrub: true,
+    trigger: "#ch2"
+  },
+  y: hauteur * .14 * -1,
+  ease: "none"
+});
+
+gsap.to(".nuage2", {
+  scrollTrigger: {
+    markers: true,
+    scrub: true,
+    trigger: "#ch2"
+  },
+  y: hauteur * .18 * -1,
+  ease: "none"
+});
+
+gsap.to(".nuage3", {
+  scrollTrigger: {
+    markers: true,
+    scrub: true,
+    trigger: "#ch2"
+  },
+  y: hauteur * .16 * -1,
+  ease: "none"
+});
+
+/* ---- Animation chapitre 3 ----- */
+
 gsap
   .timeline({
     scrollTrigger: {
@@ -74,6 +111,8 @@ gsap
   .to(".text5", { opacity: 1, duration: 50})
   .to(".text6", { opacity: 1, duration: 50},
 );
+
+/* ---- Animation chapitre 4 ----- */
 
 gsap
   .timeline({
@@ -88,6 +127,8 @@ gsap
   .to(".visage", { opacity: 1, duration: 100, stagger: 10})
   .to(".text7", { opacity: 0, duration: 200}, '<'
 );
+
+/* ---- Animation chapitre 5 ----- */
 
 gsap
   .timeline({
@@ -104,6 +145,7 @@ gsap
   .to(".text8", { opacity: 1, duration: 200}
 );
 
+/* ---- Animation chapitre 6 ----- */
 
 gsap
   .timeline({

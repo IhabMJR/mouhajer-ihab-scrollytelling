@@ -115,12 +115,14 @@ ul.technique-gsap li{
   height: 100vh;
   overflow: hidden;
   background-color: var(--blanc);
+  border: red solid 1px;
 }
 
 .perso {
   position: absolute;
   width: 100vw;
   top: 0;
+  border: green solid 1px;
 }
 
 .spirale {
@@ -138,6 +140,7 @@ ul.technique-gsap li{
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(48);
+  border: green solid 1px;
 }
 
 .text1 {
@@ -168,12 +171,45 @@ ul.technique-gsap li{
   background-position-y: -5vw;
   background-repeat: no-repeat;
   overflow: hidden;
+  border: red solid 1px;
+}
+
+.nuage {
+  position: relative;
+}
+
+.nuage1{
+  position: relative;
+  top: 60vh;
+  left: 10vw;
+  width: 28vw;
+  border: green solid 1px;
+}
+
+.nuage2{
+  position: relative;
+  rotate: 20deg;
+  top: 50vh;
+  left: 20vw;
+  width: 10vw;
+  border: green solid 1px;
+}
+
+.nuage3{
+  position: relative;
+  rotate: -15deg;
+  top: 50vh;
+  left: 40vw;
+  width: 15vw;
+  border: green solid 1px;
 }
 
 .montagne {
   position: absolute;
   bottom: 0;
+  left: 0;
   transform: translate(0, 30vw);
+  border: green solid 1px;
 }
 
 .chaise {
@@ -181,6 +217,7 @@ ul.technique-gsap li{
   top: 15vw;
   left: 47.5vw;
   transform: translate(0, -30vw);
+  border: green solid 1px;
 }
 
 .perso2 {
@@ -188,20 +225,21 @@ ul.technique-gsap li{
   top: 14vw;
   left: 44vw;
   transform: translate(0, -30vw);
+  border: green solid 1px;
 }
 
 .text3 {
   font-size: 4vh;
-  position: relative;
-  top: 45vh;
+  position: absolute;
+  top: 40vh;
   left: 2vw;
   opacity: 0;
 }
 
 .text4 {
   font-size: 4vh;
-  position: relative;
-  top: 36vh;
+  position: absolute;
+  top: 40vh;
   left: 59vw;
   opacity: 0;
 }
@@ -216,6 +254,7 @@ ul.technique-gsap li{
   height: 100vh;
   background-color: var(--noir);
   overflow: hidden;
+  border: red solid 1px;
 }
 
 .oeil1 {
@@ -234,6 +273,7 @@ ul.technique-gsap li{
   top: 5vw;
   left: 10vw;
   rotate: 300deg;
+  border: green solid 1px;
 }
 
 .oeil2 {
@@ -253,6 +293,7 @@ ul.technique-gsap li{
   top: 10vw;
   left: 10vw;
   rotate: 260deg;
+  border: green solid 1px;
 }
 
 .oeil3 {
@@ -272,6 +313,7 @@ ul.technique-gsap li{
   bottom: 30vw;
   left: 70vw;
   rotate: 60deg;
+  border: green solid 1px;
 }
 
 .text5 {
@@ -302,6 +344,7 @@ ul.technique-gsap li{
   height: 100vh;
   background-color: var(--noir);
   overflow: hidden;
+  border: red solid 1px;
 }
 
 .visage {
@@ -311,6 +354,7 @@ ul.technique-gsap li{
   right: -20vw;
   top: -15vw;
   opacity: 0;
+  border: green solid 1px;
 }
 
 .visage:nth-child(2) {
@@ -404,6 +448,7 @@ ul.technique-gsap li{
   height: 100vh;
   background-color: var(--noir);
   overflow: hidden;
+  border: red solid 1px;
 }
 
 .perso3 {
@@ -412,6 +457,7 @@ ul.technique-gsap li{
   top: 14vw;
   left: 44vw;
   transform: translate(0, -30vw);
+  border: green solid 1px;
 }
 
 .calque_1 {
@@ -486,6 +532,7 @@ ul.technique-gsap li{
   height: 100vh;
   overflow: hidden;
   background-image: url(../img/img_arriere_plan/aplan2.jpg);
+  border: red solid 1px;
 }
 
 .text9 {
