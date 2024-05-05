@@ -477,6 +477,12 @@ ul.technique-gsap li{
   left: 98vw;
 }
 
+#motionpath {
+  position: relative;
+  width: 20vw;
+  left: 45vw;
+}
+
 .text8 {
   color: var(--blanc);
   font-size: 5vh;
