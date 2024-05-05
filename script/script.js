@@ -1,5 +1,4 @@
 gsap.registerPlugin(DrawSVGPlugin);
-gsap.registerPlugin(MotionPathPlugin);
 
 let body = document.body;
 let minuteur;
