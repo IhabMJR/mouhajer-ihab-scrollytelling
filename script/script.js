@@ -1,4 +1,5 @@
 gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(MotionPathPlugin);
 
 let body = document.body;
 let minuteur;
@@ -126,7 +127,7 @@ gsap
     }
   })
   .to(".text7", { opacity: 1, duration: 200},)
-  .to(".visage", { opacity: 1, duration: 100, stagger: 10},)
+  .to(".visage", { opacity: 1, duration: 200, stagger: 10},)
   .fromTo( "#visageDraw", { drawSVG: "0% 0%" }, {
     drawSVG: "0% 100%",
     duration: 500,
@@ -144,13 +145,9 @@ gsap
       trigger: "#ch5"
     }
   })
-  .to('.perso3', {
-    motionPath: '#motionpath',
-    duration: 500,
-  })
   .to(".perso3", { transform: "translate(0, 40vw)", duration: 1000})
   .to(".perso3", { rotate: "30deg", duration: 500}, '<')
-  .to(".calque_1", { opacity: 0, duration: 100})
+  .to(".calque_1", { opacity: 0, duration: 200})
   .to(".text8", { opacity: 1, duration: 200}
 );
 
