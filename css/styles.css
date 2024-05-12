@@ -418,7 +418,7 @@ ul.technique-gsap li{
 .perso3 {
   position: absolute;
   width: 15vw;
-  top: 14vw;
+  top: -10vw;
   left: 44vw;
   transform: translate(0, -30vw);
   border: green solid 1px;
@@ -477,10 +477,9 @@ ul.technique-gsap li{
   left: 98vw;
 }
 
-#motionpath {
+.motionpath {
   position: relative;
-  width: 20vw;
-  left: 45vw;
+  opacity: 0;
 }
 
 .text8 {

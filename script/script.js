@@ -145,11 +145,12 @@ gsap
       trigger: "#ch5"
     }
   })
-  .to(".perso3", { transform: "translate(0, 40vw)", duration: 1000})
-  .to(".perso3", { rotate: "30deg", duration: 500}, '<')
+  .to('.perso3', { motionPath: '#motionpath', duration: 800, })
   .to(".calque_1", { opacity: 0, duration: 200})
   .to(".text8", { opacity: 1, duration: 200}
 );
+
+
 
 /* ---- Animation chapitre 6 ----- */
 
