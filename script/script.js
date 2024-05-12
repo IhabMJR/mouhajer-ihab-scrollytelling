@@ -1,5 +1,6 @@
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
+gsap.registerPlugin(MorphSVGPlugin);
 
 let body = document.body;
 let minuteur;
@@ -38,6 +39,7 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch1"
     }
   })
@@ -58,6 +60,7 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch2"
     }
   })
@@ -76,7 +79,7 @@ gsap.to(".nuage1", {
     scrub: true,
     trigger: "#ch2"
   },
-  y: hauteur * .14 * -1,
+  y: hauteur * .20 * -1,
   ease: "none"
 });
 
@@ -86,7 +89,7 @@ gsap.to(".nuage2", {
     scrub: true,
     trigger: "#ch2"
   },
-  y: hauteur * .18 * -1,
+  y: hauteur * .25 * -1,
   ease: "none"
 });
 
@@ -108,6 +111,7 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch3"
     }
   })
@@ -123,6 +127,7 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch4"
     }
   })
@@ -142,15 +147,23 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch5"
     }
   })
   .to('.perso3', { motionPath: '#motionpath', duration: 800, })
-  .to(".calque_1", { opacity: 0, duration: 200})
-  .to(".text8", { opacity: 1, duration: 200}
+  .to(".calque_1", { opacity: 0, duration: 200 })
+  .to(".text8", { opacity: 1, duration: 200 }
 );
 
-
+gsap.from(".perso3", {
+  scrollTrigger: {
+    trigger: '#ch5',
+    toggleActions: 'play none reverse none'
+  },
+  rotate: "-70deg",
+  duration: 2,
+});
 
 /* ---- Animation chapitre 6 ----- */
 
@@ -160,6 +173,7 @@ gsap
       pin: true,
       scrub: true,
       markers: true,
+      end: "200%",
       trigger: "#ch6"
     }
   })
