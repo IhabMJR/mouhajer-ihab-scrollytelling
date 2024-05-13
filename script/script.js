@@ -161,7 +161,7 @@ gsap.from(".perso3", {
     trigger: '#ch5',
     toggleActions: 'play none reverse none'
   },
-  rotate: "-70deg",
+  rotate: "-50deg",
   duration: 2,
 });
 
