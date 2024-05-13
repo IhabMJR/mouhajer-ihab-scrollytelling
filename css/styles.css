@@ -268,19 +268,15 @@ ul.technique-gsap li{
   position: absolute;
   width: 15vw;
   height: 15vw;
-  aspect-ratio: 1/1;
-  background-size: 4700% 100%;
   position: relative;
-  background-image: url("../img/img_elements_visuels/oeil.png");
-  animation-name: spritesheet1;
-  animation-play-state: paused;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps(48);
-  animation-delay: 250ms;
   top: 10vw;
   left: 10vw;
-  rotate: 260deg;
+  rotate: 220deg;
+  opacity: 90%;
+}
+
+#larme {
+  visibility:hidden;
 }
 
 .oeil3 {

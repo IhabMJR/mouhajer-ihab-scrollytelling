@@ -115,9 +115,10 @@ gsap
       trigger: "#ch3"
     }
   })
-  .to(".text5", { opacity: 1, duration: 50})
-  .to(".text6", { opacity: 1, duration: 50},
-);
+  .to(".text5", { opacity: 1, duration: 25 })
+  .to(".text6", { opacity: 1, duration: 25 })
+  .to("#oeil", { morphSVG: { shape: "#larme", duration: 25, shapeIndex:10 }})
+  .to(".oeil2", { rotate: "1deg", duration: 10 }, );
 
 /* ---- Animation chapitre 4 ----- */
 
@@ -162,7 +163,7 @@ gsap.from(".perso3", {
     toggleActions: 'play none reverse none'
   },
   rotate: "-50deg",
-  duration: 2,
+  duration: 5,
 });
 
 /* ---- Animation chapitre 6 ----- */
