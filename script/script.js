@@ -38,7 +38,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch1"
     }
@@ -59,7 +58,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch2"
     }
@@ -110,7 +108,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch3"
     }
@@ -127,7 +124,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch4"
     }
@@ -147,7 +143,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch5"
     }
@@ -173,7 +168,6 @@ gsap
     scrollTrigger: {
       pin: true,
       scrub: true,
-      markers: true,
       end: "200%",
       trigger: "#ch6"
     }
