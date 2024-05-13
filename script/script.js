@@ -73,7 +73,6 @@ gsap
 
 gsap.to(".nuage1", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
@@ -83,7 +82,6 @@ gsap.to(".nuage1", {
 
 gsap.to(".nuage2", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
@@ -93,7 +91,6 @@ gsap.to(".nuage2", {
 
 gsap.to(".nuage3", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
