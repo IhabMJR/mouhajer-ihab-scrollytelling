@@ -1,6 +1,6 @@
-gsap.registerPlugin(DrawSVGPlugin);
+/*gsap.registerPlugin(DrawSVGPlugin);*/
 gsap.registerPlugin(MotionPathPlugin);
-gsap.registerPlugin(MorphSVGPlugin);
+/*gsap.registerPlugin(MorphSVGPlugin);*/
 
 let body = document.body;
 let minuteur;
