@@ -73,7 +73,6 @@ gsap
 
 gsap.to(".nuage1", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
@@ -83,7 +82,6 @@ gsap.to(".nuage1", {
 
 gsap.to(".nuage2", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
@@ -93,7 +91,6 @@ gsap.to(".nuage2", {
 
 gsap.to(".nuage3", {
   scrollTrigger: {
-    markers: true,
     scrub: true,
     trigger: "#ch2"
   },
@@ -114,7 +111,7 @@ gsap
   })
   .to(".text5", { opacity: 1, duration: 25 })
   .to(".text6", { opacity: 1, duration: 25 })
-  .to("#oeil", { morphSVG: { shape: "#larme", duration: 25, shapeIndex:10 }})
+  /*.to("#oeil", { morphSVG: { shape: "#larme", duration: 25, shapeIndex:10 }})*/
   .to(".oeil2", { rotate: "1deg", duration: 10 }, );
 
 /* ---- Animation chapitre 4 ----- */
@@ -130,10 +127,10 @@ gsap
   })
   .to(".text7", { opacity: 1, duration: 200},)
   .to(".visage", { opacity: 1, duration: 200, stagger: 10},)
-  .fromTo( "#visageDraw", { drawSVG: "0% 0%" }, {
+  /*.fromTo( "#visageDraw", { drawSVG: "0% 0%" }, {
     drawSVG: "0% 100%",
     duration: 500,
-  })
+  })*/
   .to(".text7", { opacity: 0, duration: 200}, '<');
 
 /* ---- Animation chapitre 5 ----- */
